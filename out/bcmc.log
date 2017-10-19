@@ -1,0 +1,82 @@
+2017-07-04 02:41:29.547 [main] INFO  a00979176.Gis - 2017-07-04T09:41:29.543Z
+2017-07-04 02:41:29.605 [main] INFO  a00979176.Gis - Created Gis
+2017-07-04 02:41:29.605 [main] DEBUG a00979176.Gis - run()
+2017-07-04 02:41:29.607 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2017-07-04 02:41:29.608 [main] DEBUG a00979176.data.AllData - loading data
+2017-07-04 02:41:29.609 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2017-07-04 02:41:29.610 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2017-07-04 02:41:29.610 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2017-07-04 02:41:29.721 [main] DEBUG a00979176.database.Database - Driver loaded
+2017-07-04 02:41:30.693 [main] DEBUG a00979176.database.Database - Database connected
+2017-07-04 02:41:30.968 [main] DEBUG a00979176.database.dao.CustomerDao - Creating database table bcmc_Customer
+2017-07-04 02:41:30.970 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Customer(id BIGINT, firstName VARCHAR(35), lastName VARCHAR(35), street VARCHAR(55), city VARCHAR(35), postalCode VARCHAR(10), phone VARCHAR(15), emailAddress VARCHAR(55), joinedDate TIMESTAMP, PRIMARY KEY (id))
+2017-07-04 02:41:31.021 [main] DEBUG a00979176.database.dao.CustomerDao - Inserting the customers
+2017-07-04 02:41:31.084 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.108 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=3997, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22] was unsuccessful
+2017-07-04 02:41:31.109 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.111 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=2540, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28] was unsuccessful
+2017-07-04 02:41:31.111 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.112 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=1824, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12] was unsuccessful
+2017-07-04 02:41:31.113 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.114 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=4653, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03] was unsuccessful
+2017-07-04 02:41:31.115 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Customer values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.116 [main] DEBUG a00979176.database.dao.CustomerDao - Adding Customer [id=3947, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hcenter.com, joinedDate=2010-03-01] was unsuccessful
+2017-07-04 02:41:31.140 [main] DEBUG a00979176.database.dao.MotorcycleDao - Creating database table bcmc_Motorcycle
+2017-07-04 02:41:31.144 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Motorcycle(id BIGINT, make VARCHAR(25), model VARCHAR(25), yearMade BIGINT, serialNumber VARCHAR(25), mileage BIGINT, customerId BIGINT, PRIMARY KEY (id))
+2017-07-04 02:41:31.165 [main] DEBUG a00979176.database.dao.MotorcycleDao - Inserting the inventories
+2017-07-04 02:41:31.168 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.177 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='21711', make='Triumph', model='Tiger', year=2012, serialNumber='A10000', mileage=22683} was unsuccessful
+2017-07-04 02:41:31.178 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.179 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='32466', make='Yamaha', model='Bolt', year=2015, serialNumber='B20000', mileage=751} was unsuccessful
+2017-07-04 02:41:31.180 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.182 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='30618', make='Honda', model='CB1100', year=2015, serialNumber='C30000', mileage=1106} was unsuccessful
+2017-07-04 02:41:31.183 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.186 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='43900', make='BMW', model='R75/5', year=1972, serialNumber='D40000', mileage=63000} was unsuccessful
+2017-07-04 02:41:31.187 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.189 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='32212', make='Harley Davidson', model='Sportster', year=2002, serialNumber='E50000', mileage=36000} was unsuccessful
+2017-07-04 02:41:31.190 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.191 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='31397', make='Suzuki', model='V-Strom 1000', year=2007, serialNumber='F60000', mileage=31680} was unsuccessful
+2017-07-04 02:41:31.192 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Motorcycle values(?, ?, ?, ?, ?, ?, ?)
+2017-07-04 02:41:31.194 [main] DEBUG a00979176.database.dao.MotorcycleDao - Adding Motorcycle{id='37231', make='Ducati', model='Monster 696', year=2009, serialNumber='G70000', mileage=32000} was unsuccessful
+2017-07-04 02:41:31.196 [main] DEBUG a00979176.database.dao.InventoryDao - Inventory load()
+2017-07-04 02:41:31.219 [main] DEBUG a00979176.database.dao.InventoryDao - Creating database table bcmc_Inventory
+2017-07-04 02:41:31.220 [main] DEBUG a00979176.database.dao.Dao - CREATE TABLE bcmc_Inventory(partNumber VARCHAR(25), description VARCHAR(55), price BIGINT, quantity BIGINT, motorcycleId VARCHAR(55), PRIMARY KEY(partNumber))
+2017-07-04 02:41:31.235 [main] DEBUG a00979176.database.dao.InventoryDao - Inserting the parts (inventory)
+2017-07-04 02:41:31.238 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Inventory values(?, ?, ?, ?, ?)
+2017-07-04 02:41:31.243 [main] DEBUG a00979176.database.dao.InventoryDao - Adding ASA-BOLT 7129907050 225 19 Triumph+Tiger was unsuccessful
+2017-07-04 02:41:31.244 [main] DEBUG a00979176.database.dao.Dao - INSERT INTO bcmc_Inventory values(?, ?, ?, ?, ?)
+2017-07-04 02:41:31.256 [main] ERROR a00979176.Gis - org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL170704024131220' defined on 'BCMC_INVENTORY'.
+2017-07-04 02:41:31.256 [main] INFO  a00979176.Gis - 2017-07-04T09:41:31.256Z
+2017-07-04 02:41:31.257 [main] INFO  a00979176.Gis - Duration: 1713 ms
+2017-07-04 02:43:30.204 [main] INFO  a00979176.Gis - 2017-07-04T09:43:30.201Z
+2017-07-04 02:43:30.261 [main] INFO  a00979176.Gis - Created Gis
+2017-07-04 02:43:30.261 [main] DEBUG a00979176.Gis - run()
+2017-07-04 02:43:30.266 [main] DEBUG a00979176.database.Database - Loading database properties from db.properties
+2017-07-04 02:43:30.266 [main] DEBUG a00979176.data.AllData - loading data
+2017-07-04 02:43:30.268 [main] DEBUG a00979176.database.dao.CustomerDao - Constructor CustomerDao()
+2017-07-04 02:43:30.268 [main] DEBUG a00979176.database.dao.CustomerDao - CustomerDao load()
+2017-07-04 02:43:30.269 [main] DEBUG a00979176.database.Database - org.apache.derby.jdbc.EmbeddedDriver
+2017-07-04 02:43:30.401 [main] DEBUG a00979176.database.Database - Driver loaded
+2017-07-04 02:43:31.073 [main] DEBUG a00979176.database.Database - Database connected
+2017-07-04 02:43:31.240 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Customer
+2017-07-04 02:43:31.250 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Motorcycle
+2017-07-04 02:43:31.252 [main] DEBUG a00979176.database.dao.InventoryDao - Inventory load()
+2017-07-04 02:43:31.262 [main] DEBUG a00979176.database.Database - Found the target table named: bcmc_Inventory
+2017-07-04 02:43:31.264 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT id FROM bcmc_Motorcycle
+2017-07-04 02:43:31.317 [main] DEBUG a00979176.database.dao.MotorcycleDao - Loaded 7 motorcycle ID(s) from the database
+2017-07-04 02:43:31.318 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 21711
+2017-07-04 02:43:31.340 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 30618
+2017-07-04 02:43:31.346 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 31397
+2017-07-04 02:43:31.351 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32212
+2017-07-04 02:43:31.356 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 32466
+2017-07-04 02:43:31.361 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 37231
+2017-07-04 02:43:31.367 [main] DEBUG a00979176.database.dao.MotorcycleDao - SELECT * FROM bcmc_Motorcycle WHERE id = 43900
+2017-07-04 02:43:31.373 [main] DEBUG a00979176.database.dao.CustomerDao - SELECT * FROM bcmc_Customer
+2017-07-04 02:43:31.383 [main] DEBUG a00979176.database.dao.CustomerDao - Loaded 5 customer(s) from the database
+2017-07-04 02:43:31.387 [main] DEBUG a00979176.database.dao.InventoryDao - SELECT * FROM bcmc_Inventory
+2017-07-04 02:43:31.396 [main] DEBUG a00979176.database.dao.InventoryDao - Loaded 1 register(s) from the database
+2017-07-04 02:43:31.396 [main] DEBUG a00979176.data.AllData - Successfully loaded the data
+2017-07-04 02:43:31.396 [main] DEBUG a00979176.Gis - Creating the UI
+2017-07-04 02:43:31.488 [main] INFO  a00979176.Gis - 2017-07-04T09:43:31.488Z
+2017-07-04 02:43:31.489 [main] INFO  a00979176.Gis - Duration: 1287 ms
+2017-07-04 02:43:31.491 [AWT-EventQueue-0] DEBUG a00979176.Gis - Setting the Look & Feel

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jul 04 02:43:30 PDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015d-0cfb-bb58-00000d9d68d8 
+on database directory C:\Users\Rodrigo\OneDrive\BCIT\COMP2613.2\Assignment 2\opel\a00979176Assignment2\out\derby_jdbc_test with class loader sun.misc.Launcher$AppClassLoader@28d93b30 
+Loaded from file:/C:/Users/Rodrigo/OneDrive/BCIT/COMP2613.2/Assignment%202/opel/a00979176Assignment2/out/A00979176Assignment2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=C:\Users\Rodrigo\OneDrive\BCIT\COMP2613.2\Assignment 2\opel\a00979176Assignment2\out
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
